@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project xmlns="http://www.plcopen.org/xml/tc6_0200">
+  <fileHeader companyName="Beckhoff Automation GmbH" productName="TwinCAT PLC Control" productVersion="3.5.10.30" creationDateTime="2019-09-13T11:24:53.5838063" />
+  <contentHeader name="Controller" modificationDateTime="2019-09-13T11:24:53.588806">
+    <coordinateInfo>
+      <fbd>
+        <scaling x="1" y="1" />
+      </fbd>
+      <ld>
+        <scaling x="1" y="1" />
+      </ld>
+      <sfc>
+        <scaling x="1" y="1" />
+      </sfc>
+    </coordinateInfo>
+    <addData>
+      <data name="http://www.3s-software.com/plcopenxml/projectinformation" handleUnknown="implementation">
+        <ProjectInformation />
+      </data>
+    </addData>
+  </contentHeader>
+  <types>
+    <dataTypes>
+      <dataType name="ST_TcXboxController">
+        <baseType>
+          <struct>
+            <variable name="counter">
+              <type>
+                <UDINT />
+              </type>
+            </variable>
+            <variable name="A">
+              <type>
+                <BOOL />
+              </type>
+            </variable>
+            <variable name="B">
+              <type>
+                <BOOL />
+              </type>
+            </variable>
+            <variable name="X">
+              <type>
+                <BOOL />
+              </type>
+            </variable>
+            <variable name="Y">
+              <type>
+                <BOOL />
+              </type>
+            </variable>
+            <variable name="LB">
+              <type>
+                <BOOL />
+              </type>
+            </variable>
+            <variable name="RB">
+              <type>
+                <BOOL />
+              </type>
+            </variable>
+            <variable name="BACK">
+              <type>
+                <BOOL />
+              </type>
+            </variable>
+            <variable name="START">
+              <type>
+                <BOOL />
+              </type>
+            </variable>
+            <variable name="DPAD_UP">
+              <type>
+                <BOOL />
+              </type>
+            </variable>
+            <variable name="DPAD_DOWN">
+              <type>
+                <BOOL />
+              </type>
+            </variable>
+            <variable name="DPAD_LEFT">
+              <type>
+                <BOOL />
+              </type>
+            </variable>
+            <variable name="DPAD_RIGHT">
+              <type>
+                <BOOL />
+              </type>
+            </variable>
+            <variable name="LEFT_THUMB">
+              <type>
+                <BOOL />
+              </type>
+            </variable>
+            <variable name="RIGHT_THUMB">
+              <type>
+                <BOOL />
+              </type>
+            </variable>
+            <variable name="LEFT_TRIGGER">
+              <type>
+                <REAL />
+              </type>
+            </variable>
+            <variable name="RIGHT_TRIGGER">
+              <type>
+                <REAL />
+              </type>
+            </variable>
+            <variable name="JOY_LX">
+              <type>
+                <REAL />
+              </type>
+            </variable>
+            <variable name="JOY_LY">
+              <type>
+                <REAL />
+              </type>
+            </variable>
+            <variable name="JOY_RX">
+              <type>
+                <REAL />
+              </type>
+            </variable>
+            <variable name="JOY_RY">
+              <type>
+                <REAL />
+              </type>
+            </variable>
+          </struct>
+        </baseType>
+        <addData>
+          <data name="http://www.3s-software.com/plcopenxml/interfaceasplaintext" handleUnknown="implementation">
+            <InterfaceAsPlainText>
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">TYPE ST_TcXboxController :
+STRUCT
+	counter : UDINT;
+	A : BOOL;
+	B : BOOL;
+	X : BOOL;
+	Y : BOOL;
+	LB : BOOL;
+	RB : BOOL;
+	BACK : BOOL;
+	START : BOOL;
+	DPAD_UP : BOOL;
+	DPAD_DOWN : BOOL;
+	DPAD_LEFT : BOOL;
+	DPAD_RIGHT : BOOL;
+	LEFT_THUMB : BOOL;
+	RIGHT_THUMB : BOOL;
+	LEFT_TRIGGER : REAL;
+	RIGHT_TRIGGER : REAL;
+	JOY_LX : REAL;
+	JOY_LY : REAL;
+	JOY_RX : REAL;
+	JOY_RY : REAL;
+END_STRUCT
+END_TYPE
+</xhtml>
+            </InterfaceAsPlainText>
+          </data>
+          <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
+            <ObjectId>94656c33-9ac5-4b25-879b-1c529ed61a33</ObjectId>
+          </data>
+        </addData>
+      </dataType>
+    </dataTypes>
+    <pous />
+  </types>
+  <instances>
+    <configurations />
+  </instances>
+  <addData>
+    <data name="http://www.3s-software.com/plcopenxml/projectstructure" handleUnknown="discard">
+      <ProjectStructure>
+        <Object Name="ST_TcXboxController" ObjectId="94656c33-9ac5-4b25-879b-1c529ed61a33" />
+      </ProjectStructure>
+    </data>
+  </addData>
+</project>
