@@ -4,9 +4,9 @@
 3. XInput API
 
 # Build
-1. Execute tha bat script `make.bat` using the following commands depending on what you want to do:
-    1. `make config`
-    2. `make`
+1. `mkdir build && cd build`
+2. `cmake .. -G "Visual Studio 15 2017 Win64"`
+3. `cmake --build . --config Release`
 
 # Usage
 1. Make and instance of `ST_TcXboxXontroller` in e.g. `MAIN(PRG)` as `xbox : ST_TcXboxXontroller`
