@@ -5,7 +5,7 @@
 4. XInput API
 
 # Build
-Before building the executable, ensure that the string specifying the location of `ST_TcXboxController` is set correctly. I.e. `char plcVar[] = {"MAIN.xbox"};` inside `main.cpp` source file.
+Before building the executable, ensure that the string specifying the location of `ST_TcXboxController` is set correctly i.e. `char plcVar[] = {"MAIN.xbox"};` inside `main.cpp` source file.
 1. `mkdir build && cd build`
 2. `cmake .. -G "Visual Studio 15 2017 Win64"`
 3. `cmake --build . --config Release`
